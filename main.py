@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - https://t.me/Gajju82bot
+# Don't Remove Credit Tg - https://t.me/coursesadda8209
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@roxybasicneedbot
-# Ask Doubt on telegram https://t.me/Gajju82bot
+# Ask Doubt on telegram https://t.me/coursesadda8209
 
 import os
 import re
@@ -59,7 +59,7 @@ def force_subscribe(func):
             is_sub = await is_subscribed(bot, message.from_user.id)
             if not is_sub:
                 keyboard = InlineKeyboardMarkup([
-                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/Gajju82bot")],
+                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/coursesadda8209")],
                     [InlineKeyboardButton("🔄 Refresh", callback_data="refresh_sub")]
                 ])
                 await message.reply_text(
